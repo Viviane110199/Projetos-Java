@@ -1,0 +1,27 @@
+package Exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio01 {
+
+	public static void main(String[] args) {
+
+		Scanner leia = new Scanner(System.in);
+	
+		int idadeAnos, idadeMes, idadeDias, totalDias;
+	
+		System.out.println("Quantos anos: ");
+		idadeAnos = leia.nextInt();
+	
+		System.out.println("Quantos meses: ");
+		idadeMes = leia.nextInt();
+	
+		System.out.println("Quantos dias: ");
+		idadeDias = leia.nextInt();
+	
+		totalDias = idadeDias + (idadeAnos * 365) + (idadeMes * 30);
+	
+		System.out.println("O total de dias é: " + totalDias);
+
+	}
+}
