@@ -1,0 +1,29 @@
+package Exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio04 {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in); 
+		
+		double a = 2, b = 3, c = 5, r, s, d;
+		
+		s = a + b;
+		r = Math.sqrt(a + b);
+		
+		System.out.println("O resultado da raiz quadrada entre A e B é: " + r);
+		
+		s = b + c;
+		r = Math.sqrt(b + c);
+		
+		System.out.println("O resultado da raiz quadrada entre B e A é: " + r);
+		
+		d = (r + s) / 2;
+		
+		System.out.println("O valor de D é: " + d);
+		
+	}
+
+}
